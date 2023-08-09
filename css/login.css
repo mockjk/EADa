@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* pequenos (Celular em pé, 576px e maior) */
+@media (min-width: 576px) {
+    body{
+        background: #3dff1b;
+    }
+}
+
+/* médios (tablets e celular deitado, 768px e maior) */
+@media (min-width: 768px) {
+    body{
+        background: #1137e2;
+    }
+}
+
+/* Grandes (hd desktops, 992px e maior) */
+@media (min-width: 992px) {
+    body{
+        background: #e02f2f;
+    }
+}
+
+/* Maiores (full hd desktops, 1200px e maior) */
+@media (min-width: 1200px) {
+    body{
+        background: #909090;
+    }
+}
